@@ -1,0 +1,106 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        white: "#fff",
+        gray: {
+          100: "#888",
+          200: "#808080",
+          300: "#00000a",
+          400: "rgba(255, 255, 255, 0.46)",
+          500: "rgba(255, 255, 255, 0.8)",
+          600: "rgba(255, 255, 255, 0)",
+          700: "rgba(255, 255, 255, 0.1)",
+        },
+        dodgerblue: "#2d83ee",
+        whitesmoke: {
+          100: "#f7f7f7",
+          200: "#f1f1f1",
+        },
+        "ea-white": "#eaeaea",
+        mediumslateblue: {
+          100: "#7363ff",
+          200: "#4254fb",
+          300: "rgba(115, 99, 255, 0.09)",
+        },
+        "wf-base-800": "#2d3648",
+        darkslateblue: "#14316c",
+        royalblue: {
+          100: "#407aff",
+          200: "#204ecf",
+        },
+        black: "#000",
+        darkslategray: "#253858",
+        "color-palette-1-quill-scheme3": "#7184fd",
+        "color-palette-1-standar-cta1": "#4d3dee",
+        gainsboro: "#e0e0e4",
+        tomato: "#ff5252",
+        dimgray: "#555",
+      },
+      spacing: {},
+      fontFamily: {
+        jost: "Jost",
+        "open-sans": "'Open Sans'",
+        "wf-body-body-medium": "Inter",
+        poppins: "Poppins",
+        inherit: "inherit",
+        helvetica: "Helvetica",
+        "font-awesome-5-free": "'Font Awesome 5 Free'",
+      },
+      borderRadius: {
+        "8xs-6": "4.6px",
+        "lg-5": "18.5px",
+        "11xs-6": "1.6px",
+        "8xs-8": "4.8px",
+        "5xs": "8px",
+      },
+    },
+    fontSize: {
+      "sm-9": "13.9px",
+      "base-2": "16.2px",
+      "xl-8": "20.8px",
+      mid: "17px",
+      "lg-5": "18.5px",
+      base: "16px",
+      "2xl-3": "21.3px",
+      "29xl": "48px",
+      "10xl": "29px",
+      "19xl": "38px",
+      "3xl": "22px",
+      lg: "18px",
+      "lgi-2": "19.2px",
+      "9xl-8": "28.8px",
+      "4xl": "23px",
+      "15xl": "34px",
+      xl: "20px",
+      "8xl": "27px",
+      "5xl": "24px",
+      lgi: "19px",
+      sm: "14px",
+      "2xl-4": "21.4px",
+      inherit: "inherit",
+    },
+    screens: {
+      mq1525: {
+        raw: "screen and (max-width: 1525px)",
+      },
+      mq1225: {
+        raw: "screen and (max-width: 1225px)",
+      },
+      mq850: {
+        raw: "screen and (max-width: 850px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};

@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "Untitled - 1",
+    "id": "65ef4be97b6a6cbdeae7002d",
+    "framework": "react-nextjs",
+    "typescript": true,
+    "styling": "Tailwind",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "c:\\Users\\gulsh\\Downloads\\test\\src\\components",
+    "screensPath": "c:\\Users\\gulsh\\Downloads\\test\\src\\pages"
+  }
+}
