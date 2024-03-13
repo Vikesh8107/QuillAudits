@@ -1,6 +1,20 @@
+import React, { useState } from "react";
 import type { NextPage } from "next";
 
+
 const GroupComponent: NextPage = () => {
+  const [showConfirmation, setShowConfirmation] = useState(false);
+  const [showCheckmark, setShowCheckmark] = useState(false);
+
+  // Function to handle subscribe button click
+  const handleSubscribe = () => {
+    setShowConfirmation(true);
+    setShowCheckmark(true);
+    setTimeout(() => {
+      setShowCheckmark(false);
+    }, 2000); // Hide the checkmark after 2 seconds
+  };
+
   return (
     <section className="self-stretch [background:linear-gradient(89.44deg,_#edf2fe,_rgba(217,_217,_217,_0))] flex flex-row items-end justify-center pt-12 pb-[47px] pr-[402.6px] pl-[403px] box-border gap-[103px] max-w-full text-left text-3xl text-royalblue-100 font-wf-body-body-medium mq850:gap-[26px] mq850:py-[31px] mq850:px-[100px] mq850:box-border mq1225:gap-[51px] mq1225:pl-[201px] mq1225:pr-[201px] mq1225:box-border mq1525:flex-wrap">
       <div className="h-[485px] w-[1927px] relative [background:linear-gradient(89.44deg,_#edf2fe,_rgba(217,_217,_217,_0))] hidden max-w-full" />
@@ -110,19 +124,31 @@ const GroupComponent: NextPage = () => {
         </div>
         <div className="self-stretch flex flex-row items-start justify-start py-0 px-[39px] box-border max-w-full text-base text-gray-100 font-jost">
           <div className="flex-1 rounded-md bg-white shadow-[2px_2px_12px_rgba(0,_0,_0,_0.06)] flex flex-row items-end justify-between py-2 pr-2 pl-4 box-border max-w-full gap-[20px] z-[1] mq850:flex-wrap">
-            <div className="h-[52px] w-[500px] relative rounded-md bg-white shadow-[2px_2px_12px_rgba(0,_0,_0,_0.06)] hidden max-w-full" />
+            {/* Email Input */}
+            <input
+              type="email"
+              placeholder="vitalik@ethereum.org"
+              className="h-[52px] w-[300px] sm:w-[400px] px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-colors"
+            />
             <div className="flex flex-col items-start justify-start pt-0 px-0 pb-1.5">
-              <div className="w-[141px] h-[23px] relative inline-block whitespace-nowrap z-[1]">
-                vitalik@ethereum.org
-              </div>
+              {/* Subscribe Button */}
+              <button
+                className="cursor-pointer [border:none] py-1.5 px-[22px] bg-[transparent] rounded [background:linear-gradient(264.69deg,_#7184fd_20%,_#3f7af0_50%,_#4f37ee)] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.05)] flex flex-row items-start justify-start z-[1]"
+                onClick={() => setShowConfirmation(true)} // Add state to control when to show the confirmation
+              >
+                <div className="h-6 w-[71px] relative text-base leading-[24px] font-medium font-jost text-white text-left inline-block">
+                  Subscribe
+                </div>
+              </button>
+
             </div>
-            <button className="cursor-pointer [border:none] py-1.5 px-[22px] bg-[transparent] rounded [background:linear-gradient(264.69deg,_#7184fd_20%,_#3f7af0_50%,_#4f37ee)] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.05)] flex flex-row items-start justify-start z-[1]">
-              <div className="h-6 w-[71px] relative text-base leading-[24px] font-medium font-jost text-white text-left inline-block">
-                Subscribe
-              </div>
-            </button>
           </div>
         </div>
+        {showConfirmation && ( // Show the confirmation text when showConfirmation is true
+          <div className="text-green-500 mt-2">
+            We've sent you a confirmation email. Please click the link to complete your signup!
+          </div>
+        )}
       </div>
     </section>
   );

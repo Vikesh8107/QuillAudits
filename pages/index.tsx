@@ -1,3 +1,4 @@
+import React from "react";
 import type { NextPage } from "next";
 import CircleMarker from "../components/circle_marker";
 import ArcNode from "../components/arc_node";
@@ -464,10 +465,16 @@ const CaseStudyPageInsideWeb: NextPage = () => {
       <div className="w-[1424px] flex flex-row items-start justify-center pt-0 px-5 pb-7 box-border max-w-full">
         <div className="h-[54px] w-[642px] relative leading-[27px] inline-block shrink-0 max-w-full">
           <span className="font-semibold">{`Embed this tweet :- `}</span>
-          <span className="text-royalblue-200">
+          <a
+            href="https://x.com/CarpeDiemCDP/status/1742906560794296402?s=20"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-royalblue-200 hover:underline"
+          >
             https://x.com/CarpeDiemCDP/status/1742906560794296402?s=20
-          </span>
+          </a>
         </div>
+
       </div>
       <div className="w-[1410px] flex flex-row items-start justify-center pt-0 px-5 pb-[123px] box-border max-w-full">
         <div className="h-[135px] w-[630px] relative leading-[27px] inline-block shrink-0 max-w-full">

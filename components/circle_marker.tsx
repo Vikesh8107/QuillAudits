@@ -1,4 +1,6 @@
+import React from "react";
 import type { NextPage } from "next";
+import Popup from "./popup";
 
 const CircleMarker: NextPage = () => {
   return (
@@ -28,13 +30,13 @@ const CircleMarker: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="w-[211.5px] rounded-[8.03px] [background:linear-gradient(266.04deg,_#7184fd_20%,_#3f7af0_50%,_#4f37ee)] shadow-[0px_13.4px_20.08px_-4.02px_rgba(0,_0,_0,_0.1),_0px_5.4px_8.03px_-5.36px_rgba(0,_0,_0,_0.1)] overflow-hidden shrink-0 flex flex-row items-start justify-start pt-[10.699999999999818px] pb-[9.800000000000182px] pr-[23.100000000000023px] pl-[23.399999999999977px] box-border whitespace-nowrap z-[1] text-center">
-          <div className="h-[33px] flex-1 relative leading-[32.13px] font-medium inline-block" />
+        <button className="w-[211.5px] rounded-[8.03px] bg-gradient-to-r from-indigo-500 to-blue-700 shadow-[0px_13.4px_20.08px_-4.02px_rgba(0,0,0,0.1),0px_5.4px_8.03px_-5.36px_rgba(0,0,0,0.1)] overflow-hidden shrink-0 flex flex-row items-start justify-start pt-[10.699999999999818px] pb-[9.800000000000182px] pr-[23.100000000000023px] pl-[23.399999999999977px] box-border whitespace-nowrap z-[1] text-center hover:bg-gradient-to-r from-indigo-600 to-blue-800">
+          <div className="h-[33px] flex-1 relative leading-[32.13px] font-medium inline-block">
             Request An Audit
           </div>
-        </div>
+        </button>
       </div>
-    
+    </div>
   );
 };
 

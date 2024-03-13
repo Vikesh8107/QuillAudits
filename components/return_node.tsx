@@ -71,9 +71,10 @@ const ReturnNode: NextPage = () => {
                           src="/email.svg"
                         />
                       </div>
-                      <i className="h-[27px] w-[186px] relative [text-decoration:underline] tracking-[0.05em] inline-block whitespace-nowrap z-[1]">
+                      <a href="mailto:audits@quillhash.com" className="h-[27px] w-[186px] relative text-white italic tracking-[0.05em] inline-block whitespace-nowrap z-[1]">
                         audits@quillhash.com
-                      </i>
+                      </a>
+
                     </div>
                     <div className="flex flex-row items-start justify-start gap-[10.5px]">
                       <div className="flex flex-col items-start justify-start pt-[4.599999999999909px] px-0 pb-0 box-border w-[23.09999999999991px] h-[23.09999999999991px]">
@@ -83,9 +84,10 @@ const ReturnNode: NextPage = () => {
                           src="/telegram.svg"
                         />
                       </div>
-                      <i className="h-[27px] w-[134px] relative [text-decoration:underline] tracking-[0.05em] inline-block z-[1]">
+                      <a href="https://t.me/quillaudits" className="h-[27px] w-[134px] relative text-white italic underline tracking-[0.05em] inline-block z-[1]">
                         t.me/quillaudits
-                      </i>
+                      </a>
+
                     </div>
                   </div>
                 </div>
@@ -368,41 +370,54 @@ const ReturnNode: NextPage = () => {
                 </div>
                 <div className="w-[414.6px] flex flex-col items-start justify-start pt-0 px-0 pb-[13.899999999999636px] box-border max-w-full">
                   <div className="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap mq450:justify-center">
-                    <img
-                      className="h-[23.1px] w-[23.1px] relative min-h-[23px] z-[1]"
-                      alt=""
-                      src="/x.svg"
-                    />
-                    <img
-                      className="h-[23.1px] w-[23.1px] relative min-h-[23px] z-[1]"
-                      alt=""
-                      src="/vector-8.svg"
-                    />
-                    <img
-                      className="h-[23.1px] w-[28.9px] relative min-h-[23px] z-[1]"
-                      alt=""
-                      src="/vector-9.svg"
-                    />
-                    <img
-                      className="h-[23.1px] w-[25.4px] relative min-h-[23px] z-[1]"
-                      alt=""
-                      src="/vector-10.svg"
-                    />
-                    <img
-                      className="h-[23.1px] w-[32.3px] relative min-h-[23px] z-[1]"
-                      alt=""
-                      src="/medium.svg"
-                    />
-                    <img
-                      className="h-[23.1px] w-[30px] relative min-h-[23px] z-[1]"
-                      alt=""
-                      src="/vector-111.svg"
-                    />
-                    <img
-                      className="h-[23.1px] w-[30px] relative min-h-[23px] z-[1]"
-                      alt=""
-                      src="/vector-12.svg"
-                    />
+                    <a href="https://twitter.com/quillaudits" className="h-[23.1px] w-[23.1px] relative min-h-[23px] z-[1]">
+                      <img
+                        className="w-[23.1px] h-[23.1px] relative z-[1]"
+                        alt=""
+                        src="/x.svg"
+                      />
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/quillaudits/" className="h-[23.1px] w-[23.1px] relative min-h-[23px] z-[1]">
+                      <img
+                        className="w-[23.1px] h-[23.1px] relative z-[1]"
+                        alt=""
+                        src="/vector-8.svg"
+                      />
+                    </a>
+
+                    <a href="https://t.me/quillaudits" className="h-[23.1px] w-[28.9px] relative min-h-[23px] z-[1]">
+                      <img
+                        className="w-[28.9px] h-[23.1px] relative z-[1]"
+                        alt=""
+                        src="/vector-9.svg"
+                      />
+                    </a>
+
+                    <a href="https://www.reddit.com/r/QuillAudits/" className="h-[23.1px] w-[25.4px] relative min-h-[23px] z-[1]">
+                      <img
+                        className="w-[25.4px] h-[23.1px] relative z-[1]"
+                        alt=""
+                        src="/vector-10.svg"
+                      />
+                    </a>
+
+                    <a href="https://quillaudits.medium.com/" className="h-[23.1px] w-[30px] relative min-h-[23px] z-[1]">
+                      <img
+                        className="w-[30px] h-[23.1px] relative z-[1]"
+                        alt=""
+                        src="/vector-111.svg"
+                      />
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UC5Yt_8qEaAr-PiTMmGBuPCQ/videos" className="h-[23.1px] w-[30px] relative min-h-[23px] z-[1]">
+                      <img
+                        className="w-[30px] h-[23.1px] relative z-[1]"
+                        alt=""
+                        src="/vector-12.svg"
+                      />
+                    </a>
+
                   </div>
                 </div>
               </div>
