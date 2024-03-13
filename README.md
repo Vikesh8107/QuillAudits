@@ -1,4 +1,4 @@
-# Quillhash Frontend Assignment
+# QuillAudits Frontend Assignment
 
 ## Introduction
 
