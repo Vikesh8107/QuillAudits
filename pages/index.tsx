@@ -1,6 +1,6 @@
 import React from "react";
 import type { NextPage } from "next";
-import CircleMarker from "../components/circle_marker";
+import CircleMarker from "../components/navbar";
 import ArcNode from "../components/arc_node";
 import AnchorsNode from "../components/anchors_node";
 import Midpoint from "../components/midpoint";
@@ -9,13 +9,14 @@ import ShapeSet1 from "../components/shape_set_new";
 import ShapeSet from "../components/shape_set";
 import GroupComponent1 from "../components/group2";
 import GroupComponent from "../components/group1";
-import ReturnNode from "../components/return_node";
+import ReturnNode from "../components/footer";
 
 
 
 const CaseStudyPageInsideWeb: NextPage = () => {
   return (
-    <div className="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start pt-6 px-0 box-border tracking-normal text-left text-lg text-gray-300 font-poppins">
+<div className="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start pt-6 px-0 box-border tracking-normal text-left text-lg text-gray-300 font-poppins">
+ 
 
       <div className="w-[2148px] h-[629px] relative bg-whitesmoke-100 hidden max-w-full z-[0]" />
       <header className="self-stretch h-[101.9px] sticky bg-white shadow-[3px_0px_4px_rgba(0,_0,_0,_0.16)] hidden top-[0] z-[99] text-left text-base text-dimgray font-poppins">

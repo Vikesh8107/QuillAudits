@@ -16,7 +16,7 @@ const GroupComponent: NextPage = () => {
   };
 
   return (
-    <section className="self-stretch [background:linear-gradient(89.44deg,_#edf2fe,_rgba(217,_217,_217,_0))] flex flex-row items-end justify-center pt-12 pb-[47px] pr-[402.6px] pl-[403px] box-border gap-[103px] max-w-full text-left text-3xl text-royalblue-100 font-wf-body-body-medium mq850:gap-[26px] mq850:py-[31px] mq850:px-[100px] mq850:box-border mq1225:gap-[51px] mq1225:pl-[201px] mq1225:pr-[201px] mq1225:box-border mq1525:flex-wrap">
+    <section className="self-stretch [background:linear-gradient(89.44deg,_#edf2fe,_rgba(217,_217,_217,_0))] flex flex-row items-end justify-center pt-12 pb-[47px] pr-[402.6px] pl-[403px] box-border gap-[103px] max-w-full text-left text-3xl text-royalblue-100 font-wf-body-body-medium mq850:gap-[26px] mq850:py-[31px] mq850:px-[100px] mq850:box-border">
       <div className="h-[485px] w-[1927px] relative [background:linear-gradient(89.44deg,_#edf2fe,_rgba(217,_217,_217,_0))] hidden max-w-full" />
       <div className="w-[439px] flex flex-col items-start justify-start pt-0 px-0 pb-[38px] box-border min-w-[439px] max-w-full mq1525:flex-1 mq1525:min-w-full">
         <div className="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
@@ -36,7 +36,7 @@ const GroupComponent: NextPage = () => {
       </div>
       <div className="flex-1 flex flex-col items-start justify-start gap-[8.5px] min-w-[376px] max-w-full text-2xl-3 text-mediumslateblue-200 font-open-sans mq1225:min-w-full">
         <div className="self-stretch flex flex-row items-start justify-start max-w-full">
-          <div className="w-[548.2px] flex flex-col items-start justify-start pt-[14.400000000000093px] px-0 pb-0 box-border max-w-full">
+          <div className="w-[548.2px] flex flex-col items-start justify-start pt-[14.4px] px-0 pb-0 box-border max-w-full">
             <div className="self-stretch flex flex-row items-end justify-start pt-[86.90000000000009px] pb-0 pr-[52px] pl-[88.90000000000009px] relative gap-[29.3px] mq450:pl-5 mq450:box-border mq850:flex-wrap mq850:pl-11 mq850:pr-[26px] mq850:box-border">
               <img
                 className="h-[315px] w-full absolute my-0 mx-[!important] top-[0px] right-[0px] left-[0px] max-w-full overflow-hidden z-[1]"
@@ -104,7 +104,7 @@ const GroupComponent: NextPage = () => {
                 src="/vector-6.svg"
               />
             </div>
-            <div className="flex-1 flex flex-row items-start justify-start py-0 px-[7px]">
+            <div className="flex-1 flex flex-row items-start justify-start py-0 px-[107px]">
               <div className="h-[15.3px] flex flex-row items-start justify-start relative">
                 <img
                   className="h-[22.8px] w-[76.9px] absolute my-0 mx-[!important] right-[-13.4px] bottom-[-5.1px] z-[6]"
@@ -116,14 +116,14 @@ const GroupComponent: NextPage = () => {
               </div>
             </div>
             <img
-              className="w-full h-full absolute my-0 mx-[!important] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full z-[8]"
+              className="w-full h-full absolute my-0 mx-[!important] top-[0px] right-[0px] bottom-[0px] left-[160px] max-w-full overflow-hidden max-h-full z-[8]"
               alt=""
               src="/group-6.svg"
             />
           </div>
         </div>
         <div className="self-stretch flex flex-row items-start justify-start py-0 px-[39px] box-border max-w-full text-base text-gray-100 font-jost">
-          <div className="flex-1 rounded-md bg-white shadow-[2px_2px_12px_rgba(0,_0,_0,_0.06)] flex flex-row items-end justify-between py-2 pr-2 pl-4 box-border max-w-full gap-[20px] z-[1] mq850:flex-wrap">
+          <div className="flex-1 rounded-md bg-white shadow-[2px_2px_12px_rgba(0,_0,_0,_0.06)] flex flex-row items-end justify-between py-2 pr-2 pl-4 box-border max-w-[130%] gap-[20px] z-[1] mq850:flex-wrap">
             {/* Email Input */}
             <input
               type="email"
