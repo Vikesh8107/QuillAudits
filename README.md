@@ -64,3 +64,5 @@ If you'd like to contribute to this project, please follow these steps:
 - TypeScript is used for type-checking and improving code quality.
 
 Feel free to explore the code and make any necessary modifications.
+
+For support - vikeshlaharpure999@gmail.com
